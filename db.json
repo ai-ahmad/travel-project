@@ -1,0 +1,91 @@
+{
+  "Product": [
+    {
+      "id": 0,
+      "namesity": "Malé, Maldives",
+      "img": "./img/maldiviy.png",
+      "flights": "Flights",
+      "hotels": "Hotels",
+      "resorts": "Resorts"
+    },
+    {
+      "id": 1,
+      "namesity": "London, UK",
+      "img": "./img/london.png",
+      "flights": "Flights",
+      "hotels": "Hotels",
+      "resorts": "Resorts"
+    },
+    {
+      "id": 2,
+      "namesity": "Paris, France",
+      "img": "./img/paris.png",
+      "flights": "Flights",
+      "hotels": "Hotels",
+      "resorts": "Resorts"
+    },
+    {
+      "id": 3,
+      "namesity": "Tokyo, Japan",
+      "img": "./img/tokyo.png",
+      "flights": "Flights",
+      "hotels": "Hotels",
+      "resorts": "Resorts"
+    },
+    {
+      "id": 4,
+      "namesity": "New York, US",
+      "img": "./img/austaliya.png",
+      "flights": "Flights",
+      "hotels": "Hotels",
+      "resorts": "Resorts"
+    },
+    {
+      "id": 5,
+      "namesity": "Dubai, UAE",
+      "flights": "Flights",
+      "img": "/img/turkey.png",
+      "hotels": "Hotels",
+      "resorts": "Resorts"
+    }
+  ],
+  "Card": [
+    {
+      "id": 0,
+      "title": "“A real sense of community, nurtured”",
+      "img": "./dataimg/img1.png",
+      "about": "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.",
+      "vivemore": "View more",
+      "name": "Olga",
+      "toname": "Weave Studios – Kai Tak"
+    },
+    {
+      "id": 1,
+      "title": "“The facilities are superb. Clean, slick, bright.”",
+      "img": "./dataimg/img2.png",
+      "about": "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.",
+      "vivemore": "View more",
+      "name": "Thomas",
+      "toname": "Weave Studios – Olympic"
+    },
+    {
+      "id": 2,
+      "title": "“A real sense of community, nurtured”",
+      "img": "./dataimg/img3.png",
+      "about": "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.",
+      "vivemore": "View more",
+      "name": "Eliot",
+      "toname": "Weave Studios – Kai Tak"
+    },
+    {
+      "id": 3,
+      "title": "“The facilities are superb. Clean, slick, bright.”",
+      "img": "./dataimg/img1.png",
+      "about": "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.",
+      "vivemore": "View more",
+      "name": "Andrey",
+      "toname": "Weave Studios – Kai Tak"
+    }
+  ]
+}
+
