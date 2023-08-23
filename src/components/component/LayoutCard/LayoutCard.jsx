@@ -16,7 +16,8 @@ const LayoutCard = () => {
       {card.map((item) => {
         return (
           <div
-            className="card shadow-md max-w-[389px] w-full max-h-[122px] h-full rounded-md flex items-center justify-center gap-6 p-3"
+            className="card shadow-md max-w-[389px] w-full max-h-[122px] h-full rounded-md flex items-center justify-center gap-6 p-3 relative"
+
             key={item.id}
           >
             <div className="right">

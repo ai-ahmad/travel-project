@@ -32,8 +32,9 @@ const SwiperComponent = () => {
         className="mySwiper "
       >
         {data.map((item) => (
-          <SwiperSlide key={item.id} className="p-3 ">
-            <div className="card-wrapper max-w-[425px] p-6 w-full max-h-[584px] h-full rounded-md shadow-md  bg-[white]">
+          <SwiperSlide key={item.id} className="p-3 relative rounded-[20px]">
+            <div className="w-full max-w-2xl h-full absolute right-[-24px] top-6 bg-[#8DD3BB66] rounded-[20px]"></div>
+            <div className="card-wrapper max-w-[425px] p-6 w-full max-h-[584px] h-full rounded-md shadow-md z-10 realtive bg-[white]">
               <div className="title flex flex-col gap-2">
                 <h2 className="text-[24px] font-[500]">{item.title}</h2>
                 <p className="text-[12px]   w-full ]">{item.about}</p>

@@ -11,7 +11,7 @@ const Header = () => {
     >
       <NavDefault />
       <ShowCase/>
-      <Forms classes={"wrapper max-w-[1232px] w-full max-h-[280px] bg-[white] rounded-2xl absolute  top-[80%] p-4 left-[8%] shadow-md "}/>
+      <Forms classes={"max-w-[1232px] w-full max-h-[280px] bg-[white] rounded-2xl absolute  top-[80%] px-[32px] left-[50%] translate-x-[-50%] shadow-md "}/>
     </header>
   );
 };
