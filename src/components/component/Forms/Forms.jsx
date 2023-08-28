@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import IconPack from "../../others/Icons/Icons";
 import { ButtonCastom } from "../../others/buttons/button";
+import { Modal } from "flowbite-react";
+import MyModal from "../Modal/Modal";
 
 const Forms = ({ classes }) => {
+  const [openModal, setOpenModal] = useState(false);
+
+  function OpenModal() {
+    setOpenModal(true);
+    console.log(openModal)
+  }
   return (
     <div className={classes}>
+      <MyModal openModal={false} />;
       <div className="top flex gap-16 w-full">
         <div className="border-b-[5px] rounded border-solid border-[#D7E2EE]  flex  gap-3  items-center p-3">
           <IconPack
@@ -64,26 +73,21 @@ const Forms = ({ classes }) => {
       </div>
       <div className="buttons flex w-full items-center h-[80px] p-6  justify-end">
         <ButtonCastom
-          img={
-            <IconPack
-              name={"fa-plus-left"}
-              fill={"black"}
-              size={"24px"}
-            />
-          }
+          img={<IconPack name={"fa-plus-left"} fill={"black"} size={"24px"} />}
           text={"Add Promo Code"}
-          classes={"flex gap-[5px] items-center rounded-lg font-[500] text-[14px] max-w-[180px] p-3  w-full bg-[transparent]"}
+          classes={
+            "flex gap-[5px] items-center rounded-lg font-[500] text-[14px] max-w-[180px] p-3  w-full bg-[transparent]"
+          }
+          func={OpenModal}
         />
         <ButtonCastom
           img={
-            <IconPack
-              name={"fa-telegram-left"}
-              fill={"black"}
-              size={"24px"}
-            />
+            <IconPack name={"fa-telegram-left"} fill={"black"} size={"24px"} />
           }
           text={"Show Filghts"}
-          classes={" text-[white] flex gap-[5px] items-center rounded-lg font-[500] text-[14px] max-w-[140px] p-3  w-full bg-[#8DD3BB] "}
+          classes={
+            " text-[white] flex gap-[5px] items-center rounded-lg font-[500] text-[14px] max-w-[140px] p-3  w-full bg-[#8DD3BB] "
+          }
         />
         <ButtonCastom />
       </div>

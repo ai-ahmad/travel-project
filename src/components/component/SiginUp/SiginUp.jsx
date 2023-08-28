@@ -14,7 +14,7 @@ import { ButtonCastom } from "../../others/buttons/button";
 
 export default function SiginUp() {
   return (
-    <div className="sigin flex justify-around">
+    <div className="sigin flex justify-around items-center h-screen">
       <div className="max-w-[500px] w-full flex flex-col gap-8 justify-center ">
         <div>
         <img src="Logo.png" alt="" />
@@ -145,6 +145,7 @@ export default function SiginUp() {
           pagination={{
             dynamicBullets: true,
           }}
+          spaceBetween={30}
           modules={[Pagination]}
           className="mySwiper"
         >

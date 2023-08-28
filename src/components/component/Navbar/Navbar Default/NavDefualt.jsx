@@ -22,7 +22,7 @@ function NavDefualt() {
       </div>
       <div className="button-wrapper flex items-center gap-8">
       <ButtonCastom classes={"w-[41px] font-[600]  h-[48px] bg-[transparent] text-[white] text-[14px]"} text={"Login"}/>
-      <ButtonCastom location={"http://localhost:5173/sigin"} classes={"w-[100px] font-[600] h-[48px] bg-[white] text-[black] text-[14px] rounded-[10px]"} text={"Sigin up"}/>
+      <ButtonCastom location={"http://localhost:5173/signin"} classes={"w-[100px] font-[600] h-[48px] bg-[white] text-[black] text-[14px] rounded-[10px]"} text={"Sigin up"}/>
       </div>
     </nav>
   );

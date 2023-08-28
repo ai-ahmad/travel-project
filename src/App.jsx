@@ -1,24 +1,27 @@
-// Import necessary components and styles
+import React from "react"; // Don't forget to import React
 import "./App.css";
-import SiginUp from "./components/component/SiginUp/SiginUp";
-import Footer from "./components/layout/footer/Footer";
-import Header from "./components/layout/header/Header";
-import Main from "./components/layout/main/Main";
-
-import HomePage from "./components/pages/HomePage";
-
-// react-router-dom
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import RouteSettings from "./Router/SettingsRouter";
+import MyModal from "./components/component/Modal/Modal";
 
 function App() {
+  console.log(RouteSettings);
   return (
-    <div className="App m-[30px]">
+    <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/sigin" element={<SiginUp/>} />
+          {RouteSettings.map((item) => (
+            <Route
+              key={item.id}
+              exact={item.exact}
+              element={item.component}
+              path={item.path}
+            />
+          ))}
         </Routes>
       </BrowserRouter>
+
+      <MyModal />
     </div>
   );
 }
