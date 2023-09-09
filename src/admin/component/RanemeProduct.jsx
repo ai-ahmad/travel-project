@@ -24,13 +24,13 @@ const RanemeProduct = () => {
     resorts: "",
   });
 
-  console.log(newData);
-
   function upDate() {
+    console.log("yes");
     axios
-      .put(URL + information, newData)
+      .put(`http://localhost:3000/Product/${information.id}`, newData)
       .then((res) => {
         console.log(res);
+        setModal(false);
       })
       .catch((err) => {
         console.log(err);
@@ -47,8 +47,6 @@ const RanemeProduct = () => {
     setModal(true);
     setInformation(e);
   }
-
-  console.log(information);
 
   function closedModal() {
     setModal(false);
@@ -168,7 +166,7 @@ const RanemeProduct = () => {
                   />
                 </label>
                 <label class="flex flex-col mt-2 mb-2 gap-2">
-                  <span class="font-bold">How many flights</span>
+                  <span class="font-bold">How many hotels</span>
                   <input
                     type="text"
                     class="outline-none rounded-md w-full p-1"

@@ -7,9 +7,6 @@ const Deshboard = () => {
         <Link to="/deshboard/AddProduct" className="font-bold text-white">
           ADD PRODUCT
         </Link>
-        <Link to="/" className="font-bold text-white">
-          SEARCH PRODUCT
-        </Link>
         <Link to="/deashboard/DelitProduct" className="font-bold text-white">
           DELIT PRODUCT
         </Link>
