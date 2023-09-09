@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import IconPack from "../../others/Icons/Icons";
 import { ButtonCastom } from "../../others/buttons/button";
-import { Modal } from "flowbite-react";
-import MyModal from "../Modal/Modal";
 
 const Forms = ({ classes }) => {
   const [openModal, setOpenModal] = useState(false);
@@ -13,7 +11,6 @@ const Forms = ({ classes }) => {
   }
   return (
     <div className={classes}>
-      <MyModal openModal={false} />;
       <div className="top flex gap-16 w-full">
         <div className="border-b-[5px] rounded border-solid border-[#D7E2EE]  flex  gap-3  items-center p-3">
           <IconPack

@@ -1,11 +1,9 @@
-import React from "react"; // Don't forget to import React
+import React, { useState } from "react"; // Don't forget to import React
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import RouteSettings from "./Router/SettingsRouter";
-import MyModal from "./components/component/Modal/Modal";
 
 function App() {
-  console.log(RouteSettings);
   return (
     <div className="App">
       <BrowserRouter>
@@ -20,8 +18,6 @@ function App() {
           ))}
         </Routes>
       </BrowserRouter>
-
-      <MyModal />
     </div>
   );
 }
