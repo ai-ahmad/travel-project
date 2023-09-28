@@ -173,7 +173,7 @@ const RanemeProduct = () => {
                     onChange={(e) =>
                       setNewData({
                         ...newData,
-                        flights: e.target.value,
+                        hotels: e.target.value,
                       })
                     }
                   />

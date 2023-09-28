@@ -2,14 +2,14 @@ import React from "react";
 import AirplaneSVG from "./icon/airplane.svg";
 import BadSVG from "./icon/bad.svg";
 import BlackAirplaneSVG from "./icon/blackairplane.svg";
-import BlackBad  from "./icon/badblack.svg";
-import Telegram from "./icon/telegram.svg"
-import Plus from "./icon/plus.svg"
-import Star from "./icon/star.svg"
-import Google from "./icon/google.svg"
-import Fecebock from "./icon/fecebock.svg"
-import Twiter from "./icon/twiter.svg"
-import Instagram from "./icon/instagram.svg"
+import BlackBad from "./icon/badblack.svg";
+import Telegram from "./icon/telegram.svg";
+import Plus from "./icon/plus.svg";
+import Star from "./icon/star.svg";
+import Google from "./icon/google.svg";
+import Fecebock from "./icon/fecebock.svg";
+import Twiter from "./icon/twiter.svg";
+import Instagram from "./icon/instagram.svg";
 
 const IconPack = ({ name, fill, size, onClick }) => {
   const Icons = [
@@ -43,7 +43,7 @@ const IconPack = ({ name, fill, size, onClick }) => {
         />
       ),
       name: "fa-black-bad-right",
-    },    
+    },
     {
       icon: (
         <img
@@ -73,7 +73,7 @@ const IconPack = ({ name, fill, size, onClick }) => {
         />
       ),
       name: "fa-bad-left",
-    }, 
+    },
     {
       icon: (
         <img
