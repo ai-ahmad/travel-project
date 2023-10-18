@@ -1,0 +1,172 @@
+{
+  "Product": [
+    {
+      "id": 0,
+      "namesity": "Malé, Maldives",
+      "img": {
+        "img1": "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2021/05/05125410/22.jpg",
+        "img2": "https://s.wsj.net/public/resources/images/ON-CM710_conrad_M_20180418110106.jpg",
+        "img3": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/465571045.jpg?k=02196325840def7cafaa7e4433e5a101dd117244001194c539ff9281d3b7b0a2&o=&hp=1"
+      },
+      "description": "Мальдивы – тропическое государство в Индийском океане, расположенное на 26 кольцевидных атоллах, которые состоят из более чем тысячи коралловых островов. Оно славится своими пляжами, голубыми лагунами и огромными рифами. В столице страны Мале стоит посетить оживленный рыбный рынок, рестораны и магазины на главной дороге Меджеде-Магу, а также мечеть Хукуру-Миский (Пятничная мечеть), фундамент и стены которой украшены резьбой по белому кораллу.",
+      "flights": "Flights",
+      "hotels": "Hotels",
+      "resorts": "Resorts"
+    },
+    {
+      "id": 1,
+      "namesity": "London, UK",
+      "img": {
+        "img1": "https://images.contentstack.io/v3/assets/blt00454ccee8f8fe6b/bltf5fca6a3eec4d180/6139d40bec680b43eb02a9ee/US_London_UK_Header.jpg",
+        "img2": "https://www.nationsonline.org/gallery/UK/London-CBD.jpg",
+        "img3": "https://media.istockphoto.com/id/1265900812/photo/aerial-view-of-london-and-the-tower-bridge.jpg?s=612x612&w=0&k=20&c=-2j6QgZyeveMcGzuWmgLYqC7zXTkcSBnayuZsDqs5KQ="
+      },
+      "description": "Лондон – столица Англии и Соединенного Королевства. История этого современного города уходит во времена римлян. В самом центре Лондона находится здание парламента – Вестминстерский дворец, а также знаменитая часовая башня Биг-Бен и Вестминстерское аббатство. Эта церковь является местом коронации британских монархов. На противоположном берегу Темзы расположено колесо обозрения Лондонский глаз, с которого открывается панорамный вид не только на южный берег, но и на весь город.",
+      "flights": "Flights",
+      "hotels": "Hotels",
+      "resorts": "Resorts"
+    },
+    {
+      "id": 2,
+      "namesity": "Paris, France",
+      "img": {
+        "img1": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/640px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg",
+        "img2": "https://lp-cms-production.imgix.net/2021-03/shutterstock_304631102.jpg?auto=format&w=1440&h=810&fit=crop&q=75",
+        "img3": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/640px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg"
+      },
+      "description": "Столица Франции Париж – один из главных европейских городов и мировой центр культуры, искусства, моды и гастрономии. В центральной части города, построенной в XIX веке, проходят широкие бульвары и протекает река Сена. Самые известные достопримечательности Парижа – Эйфелева башня и собор Парижской Богоматери в готическом стиле, возведенный в XII веке. Также город славится своими многочисленными кафе и бутиками с одеждой от известных модельеров на улице Фобур-Сент-Оноре.",
+      "flights": "Flights",
+      "hotels": "Hotels",
+      "resorts": "Resorts"
+    },
+    {
+      "id": 3,
+      "namesity": "Tokyo, Japan",
+      "img": {
+        "img1": "https://www.travelandleisure.com/thmb/VscfMXHNO6uBpaX2cuIW1q2ZtA8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tokyo-japan-TOKYOTG0621-52012ff551dc46c4a87ac8e3151307a4.jpg",
+        "img2": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2022/11/tokyo-things-to-do-Jezael-Melgoza-via-Unsplash-900x643.jpg",
+        "img3": "https://a.cdn-hotels.com/gdcs/production178/d1389/225ed955-70b1-41ed-91d5-7916616f5d2a.jpg"
+      },
+      "description": "Токио – столица Японии, шумный город, в котором современные небоскребы с неоновой подсветкой сочетаются с традиционными храмами. Среди деревьев расположен богато украшенный синтоистский храм Мэйдзи, известный своими высокими воротами. А в огромных общественных садах находится Императорский дворец. В городе много музеев. В Токийском национальном музее представлены произведения классического искусства, а в музее Эдо-Токио можно увидеть копию театра кабуки.",
+      "flights": "Flights",
+      "hotels": "Hotels",
+      "resorts": "Resorts"
+    },
+    {
+      "id": 4,
+      "namesity": "New York, US",
+      "img": {
+        "img1": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg/1200px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg",
+        "img2": "https://d1otjdv2bf0507.cloudfront.net/images/Article_Images/ImageForArticle_3120(2).jpg",
+        "img3": "https://www.visittheusa.com/sites/default/files/styles/hero_l/public/images/hero_media_image/2017-05/9dbea438bcd305129064e4a048cc6b52.jpeg?h=84167f15&itok=Pbyrka1l"
+      },
+      "description": "Нью-Йорк включает пять боро (районов), расположенных в месте впадения реки Гудзон в Атлантический океан. В центре города расположен густонаселенный Манхэттен – один из крупнейших в мире коммерческих, финансовых и культурных центров. Главные достопримечательности Нью-Йорка – многочисленные небоскребы, в том числе Эмпайр-стейт-билдинг, и огромный Центральный парк. На залитой неоновыми огнями площади Таймс-сквер расположен театр Бродвей.",
+      "flights": "Flights",
+      "hotels": "Hotels",
+      "resorts": "Resorts"
+    },
+    {
+      "id": "9e47b016-6f0f-45aa-b65b-f679885e87e8",
+      "namesity": "India",
+      "img": {
+        "img1": "https://images.contentstack.io/v3/assets/bltacc1a01c4d280f24/blt5f4264cfc4ab9e8c/61847e47912a3c799bc42c4c/Taj_Mahal_New_Delhi_India.jpg?auto=webp&format=pjpg&quality=80&width=1200&height=1200&fit=crop&crop=1200:630,smart",
+        "img2": "https://www.viaggidafotografare.it/wp-content/uploads/2020/03/viaggidafotografare-India-Agra-Taj-Mahal_56-1024x641.jpg",
+        "img3": "https://static2-viaggi.corriereobjects.it/wp-content/uploads/2015/06/india-getty-1080x720.jpg?v=1572448547"
+      },
+      "description": "Индия – огромная страна в Южной Азии с разнообразным рельефом: на ее территории расположены как горные вершины Гималаев, так и побережье Индийского океана. История страны насчитывает пять тысячелетий. На севере Индии сохранились архитектурные памятники эпохи Великих Моголов, в том числе Красный форт и мечеть Джами-Масджид (Соборная мечеть) в Дели и мавзолей Тадж-Махал в Агре. Город Варанаси известен как место паломничества индуистов, которые совершают омовение в Ганге, а Ришикеш – как центр йоги и отправная точка для походов в Гималаи",
+      "flights": "Flights",
+      "hotels": "Hotels",
+      "resorts": "Resorts"
+    }
+  ],
+  "Card": [
+    {
+      "id": 0,
+      "title": "“A real sense of community, nurtured”",
+      "img": "/dataimg/img1.png",
+      "about": "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.",
+      "vivemore": "View more",
+      "name": "Olga",
+      "toname": "Weave Studios – Kai Tak"
+    },
+    {
+      "id": 1,
+      "title": "“The facilities are superb. Clean, slick, bright.”",
+      "img": "/dataimg/img2.png",
+      "about": "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.",
+      "vivemore": "View more",
+      "name": "Thomas",
+      "toname": "Weave Studios – Olympic"
+    },
+    {
+      "id": 2,
+      "title": "“A real sense of community, nurtured”",
+      "img": "/dataimg/img3.png",
+      "about": "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.",
+      "vivemore": "View more",
+      "name": "Eliot",
+      "toname": "Weave Studios – Kai Tak"
+    },
+    {
+      "id": 3,
+      "title": "“The facilities are superb. Clean, slick, bright.”",
+      "img": "/dataimg/img1.png",
+      "about": "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.",
+      "vivemore": "View more",
+      "name": "Andrey",
+      "toname": "Weave Studios – Kai Tak"
+    }
+  ],
+  "Accounts": [
+    {
+      "name": "Ahmad",
+      "surname": "Ahmedov",
+      "email": "ahmad@ahmad.com",
+      "password": "12345678",
+      "phoneNumber": "+998993151516",
+      "avatar": "",
+      "admin": true,
+      "cardNumber": "123456789123456",
+      "expDate": "02/27",
+      "nameOnCard": "Ahmad",
+      "countryOrRegion": "Uzbekistan",
+      "CVC": "1234"
+    },
+    {
+      "name": "Bekzod",
+      "surname": "Mirzaaliyev",
+      "email": "bekzod@bekzod.com",
+      "password": "12345678",
+      "phoneNumber": "+998993151516",
+      "avatar": "",
+      "admin": false,
+      "cardNumber": "123456789123456",
+      "expDate": "02/27",
+      "nameOnCard": "Ahmad",
+      "countryOrRegion": "Uzbekistan",
+      "CVC": "1234"
+    },
+    {
+      "id": "d76bb505-0f38-4cca-a513-542ace10901f",
+      "name": "sarvar",
+      "surname": "nak",
+      "email": "sarvar@sarvar.com",
+      "password": "111111111",
+      "passwordConfirm": "111111111",
+      "phoneNumber": "12901909",
+      "avatar": "",
+      "admin": false
+    },
+    {
+      "id": "2d2a34d4-2d51-419f-973b-dadadacd527f",
+      "name": "aa",
+      "surname": "aa",
+      "email": "aa@aa.com",
+      "password": "11111111",
+      "passwordConfirm": "11111111",
+      "phoneNumber": "23920390",
+      "avatar": "",
+      "admin": false
+    }
+  ]
+}
