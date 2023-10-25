@@ -18,31 +18,20 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          {isAdmin ? (
-            <>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/card/:id" element={<CardPage />} />
-              <Route
-                path="/dashboard/DeleteProduct"
-                element={<DelitProduct />}
-              />
-              <Route
-                path="/dashboard/RenameProduct"
-                element={<RanemeProduct />}
-              />
-              <Route path="/dashboard/addProduct" element={<AddProduct />} />
-              <Route path="*" element={<Page404 />} />
-              <Route path="/login" element={<Login />} />
-              <Route path="/sign-up" element={<SiginUp />} />
-            </>
-          ) : (
-            <>
-              <Route path="/" exact element={<HomePage />} />
-              <Route path="*" element={<Page404 />} />
-              <Route path="/login" element={<Login />} />
-              <Route path="/sign-up" element={<SiginUp />} />
-            </>
-          )}
+          <Route path="/" element={<HomePage />} />
+          <Route path="/card/:id" element={<CardPage />} />
+          <Route path="/dashboard/DeleteProduct" element={<DelitProduct />} />
+          <Route path="/dashboard/RenameProduct" element={<RanemeProduct />} />
+          <Route path="/dashboard/addProduct" element={<AddProduct />} />
+          <Route path="*" element={<Page404 />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/sign-up" element={<SiginUp />} />
+          <>
+            <Route path="/" exact element={<HomePage />} />
+            <Route path="*" element={<Page404 />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/sign-up" element={<SiginUp />} />
+          </>
         </Routes>
       </BrowserRouter>
     </div>
