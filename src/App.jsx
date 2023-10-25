@@ -1,4 +1,3 @@
-// App.js
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./components/pages/HomePage";
@@ -11,38 +10,26 @@ import SiginUp from "./components/component/SiginUp/SiginUp";
 import { useAuthContext } from "./components/context/AuthContext";
 import "./App.css";
 import Login from "./components/component/Login/Login";
+
 function App() {
-  const { isAdmin } = useAuthContext();
-  console.log("admin");
+  const { isAdmin } = useAuthContext(); // You need to set this context value
+
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          {isAdmin ? (
-            <>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/card/:id" element={<CardPage />} />
-              <Route
-                path="/dashboard/DeleteProduct"
-                element={<DelitProduct />}
-              />
-              <Route
-                path="/dashboard/RenameProduct"
-                element={<RanemeProduct />}
-              />
-              <Route path="/dashboard/addProduct" element={<AddProduct />} />
-              <Route path="*" element={<Page404 />} />
-              <Route path="/login" element={<Login />} />
-              <Route path="/sign-up" element={<SiginUp />} />
-            </>
-          ) : (
-            <>
-              <Route path="/" exact element={<HomePage />} />
-              <Route path="*" element={<Page404 />} />
-              <Route path="/login" element={<Login />} />
-              <Route path="/sign-up" element={<SiginUp />} />
-            </>
-          )}
+          <Route path="/" element={<HomePage />} />
+          <Route path="/card/:id" element={<CardPage />} />
+          <Route path="/dashboard/DeleteProduct" element={<DelitProduct />} />
+          <Route path="/dashboard/RenameProduct" element={<RanemeProduct />} />
+          <Route path="/dashboard/addProduct" element={<AddProduct />} />
+          <Route path="*" element={<Page404 />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/sign-up" element={<SiginUp />} />
+          <Route path="/" exact element={<HomePage />} />
+          <Route path="*" element={<Page404 />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/sign-up" element={<SiginUp />} />
         </Routes>
       </BrowserRouter>
     </div>

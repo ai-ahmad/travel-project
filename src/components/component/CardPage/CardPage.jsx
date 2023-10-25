@@ -1,5 +1,4 @@
 import axios from "axios";
-import { Modal } from "flowbite-react";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import FormModal from "../../others/FormModal/FormModal";
@@ -8,13 +7,14 @@ const CardPage = () => {
   const [product, setProduct] = useState([]);
   const [isMatch, setIsMatch] = useState(false);
   const [matchingProduct, setMatchingProduct] = useState(null);
-  let [imgCount, setImg] = useState(1);
-  let [modal, setModal] = useState(false);
+  const [imgCount, setImg] = useState(1);
+  const [modal, setModal] = useState(false);
+
   useEffect(() => {
     axios
       .get("http://localhost:3000/Product")
       .then((response) => {
-        setProduct(response.data); // Store the fetched data in state
+        setProduct(response.data);
       })
       .catch((error) => {
         console.error("Error fetching data:", error);
@@ -61,7 +61,7 @@ const CardPage = () => {
               />
             </div>
           </div>
-          <div className="left flex flex-col py-10 w-2/4 ">
+          <div className="left flex flex-col py-10 w-2/4">
             <p className="text-[#697b69] font-[700] mb-5">
               {matchingProduct && matchingProduct.namesity}
             </p>
@@ -81,15 +81,15 @@ const CardPage = () => {
                 {matchingProduct && matchingProduct.description}
               </p>
             </div>
-            <div className="buttos mt-16 flex items-center gap-5">
+            <div className="buttons mt-16 flex items-center gap-5">
               <Link
                 to="/"
-                className=" text-md min-w-[130px] font-semibold text-gray-800 p-4 bg-[#A5EBD3] rounded-lg"
+                className="text-md min-w-[130px] font-semibold text-gray-800 p-4 bg-[#A5EBD3] rounded-lg"
               >
                 HOME PAGES
               </Link>
               <button
-                className=" text-md font-semibold min-w-[130px]  text-gray-800 p-4 bg-[#A5EBD3] rounded-lg"
+                className="text-md font-semibold min-w-[130px] text-gray-800 p-4 bg-[#A5EBD3] rounded-lg"
                 onClick={() => setModal(true)}
               >
                 BUY
