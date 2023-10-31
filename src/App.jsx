@@ -11,6 +11,8 @@ import SiginUp from "./components/component/SiginUp/SiginUp";
 import { useAuthContext } from "./components/context/AuthContext";
 import "./App.css";
 import Login from "./components/component/Login/Login";
+import ForgotPassword from "./components/pages/ForgotPassword";
+import VerifyCode from "./components/pages/VerifyCode";
 function App() {
   const { isAdmin } = useAuthContext();
   console.log("admin");
@@ -34,6 +36,9 @@ function App() {
               <Route path="*" element={<Page404 />} />
               <Route path="/login" element={<Login />} />
               <Route path="/sign-up" element={<SiginUp />} />
+              <Route path="/forgot-password" element={<ForgotPassword />} />
+              <Route path="/verify-code" element={<VerifyCode />} />
+
             </>
           ) : (
             <>

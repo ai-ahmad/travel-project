@@ -12,6 +12,7 @@ import Logo2 from "../../others/Logo/Logo";
 import { ButtonCastom } from "../../others/buttons/button";
 import axios from "axios";
 import { useAuthContext } from "../../context/AuthContext";
+import { Link } from "react-router-dom";
 
 export default function Login() {
   const { login } = useAuthContext();
@@ -24,7 +25,7 @@ export default function Login() {
     try {
       const response = await axios.get("http://localhost:3000/Accounts");
       console.log(response);
-      const users = response.data;
+      const users = response.data;        
       const user = users.find(
         (u) => u.email === email && u.password === password
       );
@@ -72,7 +73,7 @@ export default function Login() {
             </label>
             <label className="flex flex-col relative">
               <span className="absolute top-[-15px] left-[10px] bg-[white] ">
-                Password
+    `            `            Password
               </span>
               <input
                 type="password"
@@ -92,7 +93,7 @@ export default function Login() {
                 <span>Remember me</span>
               </div>
               <div>
-                <p className="text-[16px] text-[#776b6b]">Forgot Password</p>
+                <Link to={"/forgot-password"} className="text-[16px] text-[#776b6b]">Forgot Password</Link>
               </div>
             </div>
           </form>
@@ -107,7 +108,7 @@ export default function Login() {
           </div>
           <div className="flex justify-center">
             <p>
-              Don’t have an account?
+              {t('dont-have-an-account')}
               <a href="#" className="text-[#746161]">
                 Sign up
               </a>
@@ -115,7 +116,7 @@ export default function Login() {
           </div>
           <div className="flex items-center gap-2">
             <div className="w-[35%] h-[1px] border-solid border-[1px] border-[#b9b2b2]"></div>
-            <p className="text-[#736969]">Or login with</p>
+            <p className="text-[#736969]">{t('or-login-with-0')}</p>
             <div className="w-[35%] h-[1px] border-solid border-[1px] border-[#b9b2b2]"></div>
           </div>
           <div className="flex gap-[16px] items-center justify-around">

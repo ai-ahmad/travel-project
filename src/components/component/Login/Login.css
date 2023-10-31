@@ -1,8 +1,16 @@
 .sigin .swiper {
-  width: 500px;
+  width: 40vw;
   height: 700px;
   border-radius: 20px;
 }
+
+.verify .swiper {
+  width: 40vw;
+  height: 700px;
+  border-radius: 20px;
+  position: relative;
+}
+
 
 .sigin .swiper-slide {
   /* text-align: center; */

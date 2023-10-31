@@ -9,7 +9,7 @@ const ShowCase = () => {
       <h3 className="text-[white] text-[45px] font-[500] leading-[20px]">
         {t('helping-others')}
       </h3>
-      <h2 className="text-[white] text-[80px] font-[600]">Live & Travel</h2>
+      <h2 className="text-[white] text-[80px] font-[600]">{t('live-and-travel-0')}</h2>
       <h4 className="text-[white] text-[20px] font-[600]">
         {t('special-offers-to-suit-your-plan')}
       </h4>

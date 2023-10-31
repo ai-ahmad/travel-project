@@ -38,12 +38,13 @@
       "flights": "Flights",
       "hotels": "Hotels",
       "resorts": "Resorts"
+       
     },
     {
       "id": 3,
       "namesity": "Tokyo, Japan",
       "img": {
-        "img1": "https://www.travelandleisure.com/thmb/VscfMXHNO6uBpaX2cuIW1q2ZtA8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tokyo-japan-TOKYOTG0621-52012ff551dc46c4a87ac8e3151307a4.jpg",
+        "img1": "https://www.travelandleisure.com/      thmb/VscfMXHNO6uBpaX2cuIW1q2ZtA8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tokyo-japan-TOKYOTG0621-52012ff551dc46c4a87ac8e3151307a4.jpg",
         "img2": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2022/11/tokyo-things-to-do-Jezael-Melgoza-via-Unsplash-900x643.jpg",
         "img3": "https://a.cdn-hotels.com/gdcs/production178/d1389/225ed955-70b1-41ed-91d5-7916616f5d2a.jpg"
       },

@@ -29,11 +29,11 @@ function NavDefault() {
       <div className="flex gap-8">
         <div className="one-icon flex gap-2">
           <IconPack name={"fa-airplane-right"} fill={"blue"} size={"24px"} />
-          <p className="text-[white]">Find Flight</p>
+          <p className="text-[white]">{t('find-flight-2')}</p>
         </div>
         <div className="two-icon flex gap-2">
           <IconPack name={"fa-bad-left"} fill={"blue"} size={"24px"} />
-          <p className="text-[white]">Book Flight</p>
+          <p className="text-[white]">{t('book-flight-2')}</p>
         </div>
       </div>
       <div className="logo-wrapper">
@@ -45,7 +45,7 @@ function NavDefault() {
             to="/login"
             className="w-[41px] font-[600] h-[48px] bg-[transparent] text-[white] flex justify-center items-center  text-[14px]"
           >
-            Login
+            {t('login-2')}
           </Link>
           <Link
             to="/sign-up"

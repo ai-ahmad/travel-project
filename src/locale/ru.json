@@ -1,7 +1,5 @@
 {
-  "text-white-flex-gap-5px-items-center-rounded-lg-font-500-text-14px-max-w-140px-p-3-w-full-bg-8dd3bb": "text-[white] flex gap-[5px] items-center rounded-lg font-[500] text-[14px] max-w-[140px] p-3  w-full bg-[#8DD3BB]",
   "show-filghts": "Show Filghts",
-  "flex-gap-5px-items-center-rounded-lg-font-500-text-14px-max-w-180px-p-3-w-full-bg-transparent": "flex gap-[5px] items-center rounded-lg font-[500] text-[14px] max-w-[180px] p-3  w-full bg-[transparent]",
   "add-promo-code": "Add Promo Code",
   "1-passenger-economy": "1 Passenger, Economy",
   "passenger-class": "Passenger - Class",
@@ -13,19 +11,16 @@
   "uzbek": "Uzbek",
   "english": "English",
   "login": "Login",
-  "max-w-110px-w-full-max-h-36px-h-full": "max-w-[110px] w-full max-h-[36px] h-full",
   "book-flight": "Book Flight",
   "find-flight": "Find Flight",
   "uzbek-0": "Uzbek",
   "english-0": "English",
   "login-0": "Login",
-  "max-w-110px-w-full-max-h-36px-h-full-0": "max-w-[110px] w-full max-h-[36px] h-full",
   "book-flight-0": "Book Flight",
   "find-flight-0": "Find Flight",
   "uzbek-1": "Uzbek",
   "english-1": "English",
   "login-1": "Login",
-  "max-w-110px-w-full-max-h-36px-h-full-1": "max-w-[110px] w-full max-h-[36px] h-full",
   "book-flight-1": "Book Flight",
   "find-flight-1": "Find Flight"
 }

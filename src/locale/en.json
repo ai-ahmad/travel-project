@@ -2,7 +2,15 @@
   "stays": "Stays",
   "trip-0": "Trip",
   "tashkent": "Tashkent",
-  "andijon": "Andijon",
-  "qashqadaryo": "Qashqadaryo",
-  "passenger-class-0": "Passenger - Class"
+  "andijon": "Andijan",
+  "qashqadaryo": "Kashkadarya",
+  "passenger-class-0": "Passenger - Class",
+  "find-flight-2": "Find Flight",
+  "book-flight-2": "Book Flight",
+  "login-2": "Login",
+  "live-and-travel": "Live",
+  "live-and-travel-0": "Live",
+  "or-login-with": "Or login with",
+  "or-login-with-0": "Or login with",
+  "dont-have-an-account": "Don’t have an account?"
 }
