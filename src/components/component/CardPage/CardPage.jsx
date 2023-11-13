@@ -1,5 +1,6 @@
 import axios from "axios";
 import { Modal } from "flowbite-react";
+import { t } from "i18next";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import FormModal from "../../others/FormModal/FormModal";
@@ -86,19 +87,20 @@ const CardPage = () => {
                 to="/"
                 className=" text-md min-w-[130px] font-semibold text-gray-800 p-4 bg-[#A5EBD3] rounded-lg"
               >
-                HOME PAGES
+              {t('home-pages')}
               </Link>
               <button
                 className=" text-md font-semibold min-w-[130px]  text-gray-800 p-4 bg-[#A5EBD3] rounded-lg"
                 onClick={() => setModal(true)}
               >
-                BUY
+                {t('buy')}
+                
               </button>
             </div>
           </div>
         </div>
       ) : (
-        <p>false</p>
+        <p>{t("False")}</p>
       )}
 
       {modal && <FormModal />}

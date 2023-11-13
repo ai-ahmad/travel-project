@@ -17,6 +17,7 @@
     "countries-list": "^3.0.6",
     "country-list": "^2.3.0",
     "dotenv": "^16.3.1",
+    "flowbite": "^2.0.0",
     "flowbite-react": "^0.5.0",
     "i": "^0.3.7",
     "i18next": "^23.5.1",
@@ -26,9 +27,10 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^13.2.2",
+    "react-icons": "^4.11.0",
     "react-jvectormap": "^0.0.16",
     "react-router-dom": "^6.15.0",
-    "swiper": "^10.2.0",
+    "swiper": "^10.3.1",
     "uuid": "^9.0.0"
   },
   "devDependencies": {

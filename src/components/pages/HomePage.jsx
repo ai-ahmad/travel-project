@@ -9,6 +9,7 @@ const HomePage = ({ event }) => {
       <Header />
       <Main event={event} />
       <Footer   />
+      
     </div>    
   );
 };

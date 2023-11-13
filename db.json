@@ -38,7 +38,6 @@
       "flights": "Flights",
       "hotels": "Hotels",
       "resorts": "Resorts"
-       
     },
     {
       "id": 3,
@@ -80,42 +79,238 @@
       "resorts": "Resorts"
     }
   ],
+
   "Card": [
     {
       "id": 0,
-      "title": "“A real sense of community, nurtured”",
-      "img": "/dataimg/img1.png",
+      "country": "United Arab Emirates",
+      "travelcity": "Dubai",
+      "img": {
+        "img1": "https://i.natgeofe.com/n/f3d0b742-5bef-4665-87e8-61ef82a0101c/dubai-travel.jpg?w=2880&h=1920",
+        "img2": "https://www.travelandleisure.com/thmb/-29VgzCj5rsV1ixCKGUb3jYN7p4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-dubai-beach-TODODUBAI0623-b8c3fc4a71074bb296e9cf735dc0369e.jpg",
+        "img3": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/TECHZMXJDZIZ3MSPVCWBOGTK6Y.jpg"
+      },
+      "hotel": "Burj Khalifa",
+      "travelTimeStart": "10.11.2023",
+      "travelTimeEnd": "17.11.2023",
+      "rating": "7",
+      "visa": "Yes",
+      "food": {
+        "breakfast": true,
+        "lunch": false,
+        "dinner": false
+      },
+      "transport": "yes",
       "about": "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.",
-      "vivemore": "View more",
-      "name": "Olga",
-      "toname": "Weave Studios – Kai Tak"
+      "price": "2400$",
+      "status": {
+        "hot": true,
+        "new": true,
+        "sale": true
+      }
     },
+
     {
       "id": 1,
-      "title": "“The facilities are superb. Clean, slick, bright.”",
-      "img": "/dataimg/img2.png",
+      "country": "United Arab Emirates",
+      "travelcity": "Dubai",
+      "img": {
+        "img1": "https://i.natgeofe.com/n/f3d0b742-5bef-4665-87e8-61ef82a0101c/dubai-travel.jpg?w=2880&h=1920",
+        "img2": "https://www.travelandleisure.com/thmb/-29VgzCj5rsV1ixCKGUb3jYN7p4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-dubai-beach-TODODUBAI0623-b8c3fc4a71074bb296e9cf735dc0369e.jpg",
+        "img3": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/TECHZMXJDZIZ3MSPVCWBOGTK6Y.jpg"
+      },
+      "hotel": "Burj Khalifa",
+      "travelTimeStart": "10.11.2023",
+      "travelTimeEnd": "17.11.2023",
+      "rating": "4",
+      "visa": "Yes",
+      "food": {
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+      },
+      "transport": "yes",
       "about": "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.",
-      "vivemore": "View more",
-      "name": "Thomas",
-      "toname": "Weave Studios – Olympic"
+      "price": "2400$",
+      "status": {
+        "hot": true,
+        "new": false,
+        "sale": false
+      }
     },
+
     {
       "id": 2,
-      "title": "“A real sense of community, nurtured”",
-      "img": "/dataimg/img3.png",
+      "country": "United Arab Emirates",
+      "travelcity": "Dubai",
+      "img": {
+        "img1": "https://i.natgeofe.com/n/f3d0b742-5bef-4665-87e8-61ef82a0101c/dubai-travel.jpg?w=2880&h=1920",
+        "img2": "https://www.travelandleisure.com/thmb/-29VgzCj5rsV1ixCKGUb3jYN7p4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-dubai-beach-TODODUBAI0623-b8c3fc4a71074bb296e9cf735dc0369e.jpg",
+        "img3": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/TECHZMXJDZIZ3MSPVCWBOGTK6Y.jpg"
+      },
+      "hotel": "Burj Khalifa",
+      "travelTimeStart": "10.11.2023",
+      "travelTimeEnd": "17.11.2023",
+      "rating": "7",
+      "visa": "Yes",
+      "food": {
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+      },
+      "transport": "yes",
       "about": "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.",
-      "vivemore": "View more",
-      "name": "Eliot",
-      "toname": "Weave Studios – Kai Tak"
+      "price": "2400$",
+      "status": {
+        "hot": false,
+        "new": true,
+        "sale": false
+      }
     },
+
     {
       "id": 3,
-      "title": "“The facilities are superb. Clean, slick, bright.”",
-      "img": "/dataimg/img1.png",
+      "country": "United Arab Emirates",
+      "travelcity": "Dubai",
+      "img": {
+        "img1": "https://i.natgeofe.com/n/f3d0b742-5bef-4665-87e8-61ef82a0101c/dubai-travel.jpg?w=2880&h=1920",
+        "img2": "https://www.travelandleisure.com/thmb/-29VgzCj5rsV1ixCKGUb3jYN7p4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-dubai-beach-TODODUBAI0623-b8c3fc4a71074bb296e9cf735dc0369e.jpg",
+        "img3": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/TECHZMXJDZIZ3MSPVCWBOGTK6Y.jpg"
+      },
+      "hotel": "Burj Khalifa",
+      "travelTimeStart": "10.11.2023",
+      "travelTimeEnd": "17.11.2023",
+      "rating": "7",
+      "visa": "Yes",
+      "food": {
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+      },
+      "transport": "yes",
       "about": "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.",
-      "vivemore": "View more",
-      "name": "Andrey",
-      "toname": "Weave Studios – Kai Tak"
+      "price": "2400$",
+      "status": {
+        "hot": false,
+        "new": false,
+        "sale": true
+      }
+    },
+
+    {
+      "id": 4,
+      "country": "United Arab Emirates",
+      "travelcity": "Dubai",
+      "img": {
+        "img1": "https://i.natgeofe.com/n/f3d0b742-5bef-4665-87e8-61ef82a0101c/dubai-travel.jpg?w=2880&h=1920",
+        "img2": "https://www.travelandleisure.com/thmb/-29VgzCj5rsV1ixCKGUb3jYN7p4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-dubai-beach-TODODUBAI0623-b8c3fc4a71074bb296e9cf735dc0369e.jpg",
+        "img3": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/TECHZMXJDZIZ3MSPVCWBOGTK6Y.jpg"
+      },
+      "hotel": "Burj Khalifa",
+      "travelTimeStart": "10.11.2023",
+      "travelTimeEnd": "17.11.2023",
+      "rating": "7",
+      "visa": "Yes",
+      "food": {
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+      },
+      "transport": "yes",
+      "about": "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.",
+      "price": "2400$",
+      "status": {
+        "hot": false,
+        "new": false,
+        "sale": true
+      }
+    },
+
+    {
+      "id": 5,
+      "country": "United Arab Emirates",
+      "travelcity": "Dubai",
+      "img": {
+        "img1": "https://i.natgeofe.com/n/f3d0b742-5bef-4665-87e8-61ef82a0101c/dubai-travel.jpg?w=2880&h=1920",
+        "img2": "https://www.travelandleisure.com/thmb/-29VgzCj5rsV1ixCKGUb3jYN7p4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-dubai-beach-TODODUBAI0623-b8c3fc4a71074bb296e9cf735dc0369e.jpg",
+        "img3": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/TECHZMXJDZIZ3MSPVCWBOGTK6Y.jpg"
+      },
+      "hotel": "Burj Khalifa",
+      "travelTimeStart": "10.11.2023",
+      "travelTimeEnd": "17.11.2023",
+      "rating": "7",
+      "visa": "Yes",
+      "food": {
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+      },
+      "transport": "yes",
+      "about": "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.",
+      "price": "2400$",
+      "status": {
+        "hot": false,
+        "new": false,
+        "sale": true
+      }
+    },
+
+    {
+      "id": 6,
+      "country": "United Arab Emirates",
+      "travelcity": "Dubai",
+      "img": {
+        "img1": "https://i.natgeofe.com/n/f3d0b742-5bef-4665-87e8-61ef82a0101c/dubai-travel.jpg?w=2880&h=1920",
+        "img2": "https://www.travelandleisure.com/thmb/-29VgzCj5rsV1ixCKGUb3jYN7p4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-dubai-beach-TODODUBAI0623-b8c3fc4a71074bb296e9cf735dc0369e.jpg",
+        "img3": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/TECHZMXJDZIZ3MSPVCWBOGTK6Y.jpg"
+      },
+      "hotel": "Burj Khalifa",
+      "travelTimeStart": "10.11.2023",
+      "travelTimeEnd": "17.11.2023",
+      "rating": "7",
+      "visa": "Yes",
+      "food": {
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+      },
+      "transport": "yes",
+      "about": "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.",
+      "price": "2400$",
+      "status": {
+        "hot": false,
+        "new":false,
+        "sale": true
+      }
+    },
+
+    {
+      "id":7,
+      "country": "United Arab Emirates",
+      "travelcity": "Dubai",
+      "img": {
+        "img1": "https://i.natgeofe.com/n/f3d0b742-5bef-4665-87e8-61ef82a0101c/dubai-travel.jpg?w=2880&h=1920",
+        "img2": "https://www.travelandleisure.com/thmb/-29VgzCj5rsV1ixCKGUb3jYN7p4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-dubai-beach-TODODUBAI0623-b8c3fc4a71074bb296e9cf735dc0369e.jpg",
+        "img3": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/TECHZMXJDZIZ3MSPVCWBOGTK6Y.jpg"
+      },
+      "hotel": "Burj Khalifa",
+      "travelTimeStart": "10.11.2023",
+      "travelTimeEnd": "17.11.2023",
+      "rating": "7",
+      "visa": "Yes",
+      "food": {
+        "breakfast": true,
+        "lunch": true,
+        "dinner": true
+      },
+      "transport": "yes",
+      "about": "Really appreciate the help and support from the staff during these tough times. Shoutout to Katie for helping me always, even when I was out of the country. And always available when needed.",
+      "price": "2400$",
+      "status": {
+        "hot": true,
+        "new": false,
+        "sale": false
+      }
     }
   ],
   "Accounts": [

@@ -7,11 +7,11 @@ const ShowCase = () => {
   return (
     <div className="flex flex-col items-center justify-center h-[400px] gap-3">
       <h3 className="text-[white] text-[45px] font-[500] leading-[20px]">
-        {t('helping-others')}
+        {t('Helping-others')}
       </h3>
-      <h2 className="text-[white] text-[80px] font-[600]">{t('live-and-travel-0')}</h2>
+      <h2 className="text-[white] text-[80px] font-[600]">{t("Live-and-travel")}</h2>
       <h4 className="text-[white] text-[20px] font-[600]">
-        {t('special-offers-to-suit-your-plan')}
+       {t("Special-offers-to-suit-your-plan")}
       </h4>
     </div>
   );

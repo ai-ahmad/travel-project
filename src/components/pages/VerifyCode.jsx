@@ -12,6 +12,7 @@ import { ButtonCastom } from "../others/buttons/button";
 import axios from "axios";
 import { useAuthContext } from "../context/AuthContext";
 import { Link } from "react-router-dom";
+import { t } from "i18next";
 
 export default function VerifyCode() {
   const { login } = useAuthContext();
@@ -53,18 +54,16 @@ export default function VerifyCode() {
             </div>
 
             <div>
-              <Link to={"/login"}>Back to login</Link>
-              <h1 className="text-[40px] font-[600]">Verify code</h1>
+              <Link to={"/login"}>{t('back-to-login-0')}</Link>
+              <h1 className="text-[40px] font-[600]">{t('verify-code')}</h1>
               <p className="text-[16px] text-[#776b6b]">
-                An authentication code has been sent to your email.
-              </p>
+                {t('an-authentication-code-has-been-sent-to-your-email')} </p>
             </div>
 
             <form className="flex flex-col gap-6">
               <label className="flex flex-col relative">
                 <span className="absolute top-[-15px] left-[10px] bg-[white] ">
-                  Enter Code
-                </span>
+                  {t('enter-code')} </span>
                 <input
                   type="email"
                   className="outline-none border-2 border-solid border-[#bdbcbf] rounded-lg p-2 max-w-[500px] w-full max-h-[56px] h-full"
@@ -79,8 +78,7 @@ export default function VerifyCode() {
           text-center bg-[#8DD3BB] p-2 font-semibold"
                 onClick={handleSignUp}
               >
-                Verify
-              </button>
+                {t('verify')} </button>
             </div>
           </div>
         </div>

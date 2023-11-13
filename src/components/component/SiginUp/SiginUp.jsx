@@ -10,6 +10,7 @@ import "./SiginSwiper.css";
 import { Pagination } from "swiper/modules";
 import { ButtonCastom } from "../../others/buttons/button";
 import axios from "axios";
+import { t } from "i18next";
 
 export default function SiginUp() {
   const [configPassword, setConfigPassword] = useState("");
@@ -85,9 +86,9 @@ export default function SiginUp() {
           </div>
 
           <div>
-            <h1 className="text-[40px] font-[600] font-serif">Sign Up</h1>
+            <h1 className="text-[40px] font-[600] font-serif">{t('sign-up-0')}</h1>
             <p className="text-[16px] text-[#776b6b]">
-              Let’s get you all st up so you can access your personal account.{" "}
+              {t('lets-get-you-all-set-up-so-you-can-access-your-personal-account')}{" "}
             </p>
           </div>
 
@@ -95,7 +96,7 @@ export default function SiginUp() {
             <div className="flex gap-5 ">
               <label className="flex flex-col relative flex-1">
                 <span className="absolute top-[-10px]  bg-white left-3 z-50">
-                  First Name
+                  {t('first-name')}
                 </span>
                 <input
                   type="text"
@@ -106,7 +107,7 @@ export default function SiginUp() {
               </label>
               <label className="flex flex-col flex-1  relative">
                 <span className="absolute top-[-10px]  bg-white left-3 z-50">
-                  Last Name
+                  {t('last-name')}
                 </span>
                 <input
                   type="text"
@@ -121,7 +122,7 @@ export default function SiginUp() {
             <div className="flex gap-5 mt-6 ">
               <label className="flex flex-col  relative flex-1">
                 <span className="absolute top-[-10px]  bg-white  left-3 z-50">
-                  Email
+                  {t('email-0')}
                 </span>
                 <input
                   type="email"
@@ -132,7 +133,7 @@ export default function SiginUp() {
               </label>
               <label className="flex flex-col relative flex-1">
                 <span className="absolute top-[-10px]  bg-white left-3 z-50">
-                  Phone Number
+                  {t('phone-number')}
                 </span>
                 <input
                   value={user.phoneNumber}
@@ -147,7 +148,7 @@ export default function SiginUp() {
             <div className="flex flex-col gap-5 mt-6 ">
               <label className="flex flex-col  relative flex-1">
                 <span className="absolute top-[-10px]  bg-white  left-3 z-50">
-                  Password
+                  {t('password-0')}
                 </span>
                 <input
                   value={user.password}
@@ -160,7 +161,7 @@ export default function SiginUp() {
               </label>
               <label className="flex flex-col relative flex-1">
                 <span className="absolute top-[-10px] bg-white left-3 z-50">
-                  Confirm Password
+                  {t('confirm-password')}
                 </span>
                 <input
                   type="password"
@@ -179,9 +180,9 @@ export default function SiginUp() {
                   className=" rounded-lg py-2 px-4 border-2 border-solid  outline-none"
                 />
                 <span className="flex items-center justify-center gap-2 ">
-                  I agree to all the
-                  <span className="text-[#FF8682]">Terms </span> and{" "}
-                  <span className="text-[#FF8682]">Privacy Policies</span>
+                  {t('i-agree-to-all-the')}
+                  <span className="text-[#FF8682]">{t('terms')} </span> {t('and')}{" "}
+                  <span className="text-[#FF8682]">{t('privacy-policies')}</span>
                 </span>
               </label>
             </div>
@@ -192,22 +193,22 @@ export default function SiginUp() {
                 text-center font-bold  bg-[#8DD3BB] p-2"
                 onClick={userAdd}
               >
-                Create account
+                {t('create-account')}
               </button>
             </div>
           </form>
 
           <div className="flex justify-center">
             <p>
-              Already have an account?
+              {t('already-have-an-account')}
               <a href="#" className="text-[#746161]">
-                Login
+                {t  ('login-1')}
               </a>
             </p>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-[40%] h-[1px] border-solid border-[1px] border-[#b9b2b2]"></div>
-            <p className="text-[#736969] w-[20%]">Or Sign up with</p>
+            <p className="text-[#736969] w-[20%]">{t('or-sign-up-with')}</p>
             <div className="w-[40%] h-[1px] border-solid border-[1px] border-[#b9b2b2]"></div>
           </div>
           <div className="flex gap-[16px] items-center justify-between">

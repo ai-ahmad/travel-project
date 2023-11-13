@@ -25,34 +25,34 @@ const Forms = ({ classes }) => {
         </div>
         <div className="border-l-2 border-solid border-[#D7E2EE] p-3 flex  gap-3  items-center">
           <IconPack name={"fa-black-bad-right"} fill={"white"} size={"24px"} />
-          <p>{t('stays')}</p>
+          <p>{t("stays")}</p>
         </div>
       </div>
       <div className="bottom mt-7">
         <div className="input-wrapper flex gap-6">
           <label className="flex flex-col items-left relative">
             <span className="absolute top-[-12px] left-4 z-[999] text-sm bg-[white] font-[500]">
-              From-to
+             {t('From-to')}
             </span>
             <input
               type="text"
-              placeholder="Lahone-Karachi"
+              placeholder={t('Lahone-karachi')}
               className="w-[324px] h-[53px] p-3 outline-none border-2 border-solid border-[#b4aeae] rounded-md"
             />
           </label>
           <label className="flex flex-col items-left relative">
             <span className="absolute top-[-12px] left-4 z-[999] text-sm bg-[white] font-[500]">
-              {t('trip-0')}
+            {t('trip')}
             </span>
             <select className="w-[130px]  border-2 border-solid border-[#b4aeae] rounded-md p-3 outline-none">
-              <option value="Tashkent">{t('tashkent')}</option>
-              <option value="Andijon">{t('andijon')}</option>
-              <option value="Qashqa-Datyo">{t('qashqadaryo')}</option>
+              <option value="Tashkent">Tashkent</option>
+              <option value="Andijon">Andijon</option>
+              <option value="Qashqa-Datyo">Qashqadaryo</option>
             </select>
           </label>
           <label className="flex flex-col items-left relative">
             <span className="absolute top-[-12px] left-4 z-[999] text-sm bg-[white] font-[500]">
-              Depart-Return
+              {t("depart-return")}
             </span>
             <input
               type="date"
@@ -61,11 +61,11 @@ const Forms = ({ classes }) => {
           </label>
           <label className="flex flex-col items-left relative">
             <span className="absolute top-[-12px] left-4 z-[999] text-sm bg-[white] font-[500]">
-              {t('passenger-class-0')}
+              {t("passenger-class")}
             </span>
             <input
               type="text"
-              placeholder="1 Passenger, Economy"
+              placeholder={t("1-passenger-economy")}
               className="w-[324px] border-2 border-solid border-[#b4aeae] rounded-md p-3 outline-none"
             />
           </label>
@@ -74,7 +74,7 @@ const Forms = ({ classes }) => {
       <div className="buttons flex w-full items-center h-[80px] p-6  justify-end">
         <ButtonCastom
           img={<IconPack name={"fa-plus-left"} fill={"black"} size={"24px"} />}
-          text={"Add Promo Code"}
+          text={t("add-promo-code")}
           classes={
             "flex gap-[5px] items-center rounded-lg font-[500] text-[14px] max-w-[180px] p-3  w-full bg-[transparent]"
           }
@@ -84,7 +84,7 @@ const Forms = ({ classes }) => {
           img={
             <IconPack name={"fa-telegram-left"} fill={"black"} size={"24px"} />
           }
-          text={"Show Filghts"}
+          text={t("show-filghts")}
           classes={
             " text-[white] flex gap-[5px] items-center rounded-lg font-[500] text-[14px] max-w-[140px] p-3  w-full bg-[#8DD3BB] "
           }

@@ -12,6 +12,7 @@ import { ButtonCastom } from "../others/buttons/button";
 import axios from "axios";
 import { useAuthContext } from "../context/AuthContext";
 import { Link } from "react-router-dom";
+import { t } from "i18next";
 
 export default function ForgotPassword() {
   const { login } = useAuthContext();
@@ -52,19 +53,16 @@ export default function ForgotPassword() {
           </div>
 
           <div>
-            <Link to={"/login"}>Back to login</Link>
-            <h1 className="text-[40px] font-[600]">Forgot your password?</h1>
+            <Link to={"/login"}>{t('back-to-login')}</Link>
+            <h1 className="text-[40px] font-[600]">{t('forgot-your-password')}</h1>
             <p className="text-[16px] text-[#776b6b]">
-              Don’t worry, happens to all of us. Enter your email below to
-              recover your password
-            </p>
+              {t('dont-worry-happens-to-all-of-us-enter-your-email-below-to-recover-your-password')} </p>
           </div>
 
           <form className="flex flex-col gap-6">
             <label className="flex flex-col relative">
               <span className="absolute top-[-15px] left-[10px] bg-[white] ">
-                Email
-              </span>
+                {t('email-1')} </span>
               <input
                 type="email"
                 className="outline-none border-2 border-solid border-[#bdbcbf] rounded-lg p-2 max-w-[500px] w-full max-h-[56px] h-full"
@@ -79,13 +77,12 @@ export default function ForgotPassword() {
           text-center bg-[#8DD3BB] p-2 font-semibold"
               onClick={handleSignUp}
             >
-              Submit
-            </button>
+              {t('submit')} </button>
           </div>
 
           <div className="flex items-center gap-2">
             <div className="w-[35%] h-[1px] border-solid border-[1px] border-[#b9b2b2]"></div>
-            <p className="text-[#736969]">Or login with</p>
+            <p className="text-[#736969]">{t('or-login-with')}</p>
             <div className="w-[35%] h-[1px] border-solid border-[1px] border-[#b9b2b2]"></div>
           </div>
           <div className="flex gap-[16px] items-center justify-around">

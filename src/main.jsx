@@ -7,6 +7,7 @@ import i18n from "i18next";
 
 import engTranslation from "./locale/en.json";
 import ruTranslation from "./locale/ru.json";
+import uzTranslation from "./locale/uz.json"
 
 i18n.init({
   lng: "en",
@@ -16,6 +17,9 @@ i18n.init({
     },
     ru: {
       translation: ruTranslation,
+    },
+    uz: {
+      translation: uzTranslation,
     },
   },
 });

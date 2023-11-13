@@ -13,6 +13,7 @@ import { ButtonCastom } from "../../others/buttons/button";
 import axios from "axios";
 import { useAuthContext } from "../../context/AuthContext";
 import { Link } from "react-router-dom";
+import { t } from "i18next";
 
 export default function Login() {
   const { login } = useAuthContext();
@@ -53,16 +54,16 @@ export default function Login() {
           </div>
 
           <div>
-            <h1 className="text-[40px] font-[600] font-serif">Login</h1>
+            <h1 className="text-[40px] font-[600] font-serif">{t('login-0')}</h1>
             <p className="text-[16px] text-[#776b6b]">
-              Login to access your Golobe account
+              {t('login-to-access-your-golobe-account')}
             </p>
           </div>
 
           <form className="flex flex-col gap-6">
             <label className="flex flex-col relative">
               <span className="absolute top-[-15px] left-[10px] bg-[white] ">
-                Email
+                {t('email')}
               </span>
               <input
                 type="email"
@@ -73,7 +74,7 @@ export default function Login() {
             </label>
             <label className="flex flex-col relative">
               <span className="absolute top-[-15px] left-[10px] bg-[white] ">
-    `            `            Password
+              {t('password')}
               </span>
               <input
                 type="password"
@@ -90,10 +91,10 @@ export default function Login() {
                   checked={rememberMe}
                   onChange={() => setRememberMe(!rememberMe)}
                 />
-                <span>Remember me</span>
+                <span>{t('remember-me')}</span>
               </div>
               <div>
-                <Link to={"/forgot-password"} className="text-[16px] text-[#776b6b]">Forgot Password</Link>
+                <Link to={"/forgot-password"} className="text-[16px] text-[#776b6b]">{t('forgot-password')}</Link>
               </div>
             </div>
           </form>
@@ -103,14 +104,14 @@ export default function Login() {
           text-center bg-[#8DD3BB] p-2"
               onClick={handleSignUp}
             >
-              LOGIN
+              {t('login')}
             </button>
           </div>
           <div className="flex justify-center">
             <p>
               {t('dont-have-an-account')}
               <a href="#" className="text-[#746161]">
-                Sign up
+                {t('sign-up')}
               </a>
             </p>
           </div>
